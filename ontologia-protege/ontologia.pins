@@ -1,0 +1,304 @@
+; Tue May 17 12:17:38 CEST 2016
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([ontologia_Class0] of  Ejercicio
+
+	(calorias-minuto 12.0)
+	(combina-con
+		[ontologia_Class10030]
+		[ontologia_Class10031]
+		[ontologia_Class10032]
+		[ontologia_Class10033])
+	(duracion-minima 10)
+	(edad-minima 10)
+	(no-apto [ontologia_Class20002])
+	(nombre "Flexiones")
+	(objetivos [ontologia_Class10055])
+	(recomendado [ontologia_Class20003])
+	(repeticiones-maximas 100)
+	(repeticiones-minimas 10))
+
+([ontologia_Class10030] of  Ejercicio
+
+	(calorias-minuto 12.0)
+	(combina-con
+		[ontologia_Class0]
+		[ontologia_Class10031]
+		[ontologia_Class10032]
+		[ontologia_Class10033]
+		[ontologia_Class28])
+	(duracion-minima 10)
+	(edad-minima 10)
+	(no-apto [ontologia_Class20003])
+	(nombre "Abdominales")
+	(objetivos [ontologia_Class10055])
+	(recomendado [ontologia_Class20005])
+	(repeticiones-maximas 100)
+	(repeticiones-minimas 10))
+
+([ontologia_Class10031] of  Ejercicio
+
+	(calorias-minuto 15.0)
+	(combina-con
+		[ontologia_Class0]
+		[ontologia_Class10030]
+		[ontologia_Class10032]
+		[ontologia_Class10033])
+	(duracion-minima 30)
+	(edad-maxima 70)
+	(edad-minima 10)
+	(no-apto [ontologia_Class20007])
+	(nombre "Bici")
+	(objetivos [ontologia_Class10058])
+	(recomendado [ontologia_Class20005]))
+
+([ontologia_Class10032] of  Ejercicio
+
+	(calorias-minuto 10.0)
+	(combina-con
+		[ontologia_Class0]
+		[ontologia_Class10030]
+		[ontologia_Class10031]
+		[ontologia_Class10033])
+	(duracion-minima 10)
+	(edad-minima 10)
+	(no-apto [ontologia_Class20007])
+	(nombre "Sentadillas")
+	(objetivos [ontologia_Class10055])
+	(recomendado [ontologia_Class20008])
+	(repeticiones-maximas 100)
+	(repeticiones-minimas 10))
+
+([ontologia_Class10033] of  Ejercicio
+
+	(calorias-minuto 20.0)
+	(combina-con
+		[ontologia_Class10030]
+		[ontologia_Class10031]
+		[ontologia_Class10033])
+	(duracion-minima 10)
+	(edad-maxima 70)
+	(edad-minima 10)
+	(no-apto [ontologia_Class20007])
+	(nombre "Correr")
+	(objetivos [ontologia_Class10061])
+	(recomendado [ontologia_Class20005]))
+
+([ontologia_Class10055] of  Objetivos
+
+	(flexibilidad TRUE)
+	(mantenimiento TRUE)
+	(pasar-rato TRUE)
+	(perder-peso TRUE))
+
+([ontologia_Class10058] of  Objetivos
+
+	(flexibilidad FALSE)
+	(mantenimiento TRUE)
+	(pasar-rato TRUE)
+	(perder-peso TRUE))
+
+([ontologia_Class10061] of  Objetivos
+
+	(flexibilidad FALSE)
+	(mantenimiento TRUE)
+	(pasar-rato FALSE)
+	(perder-peso TRUE))
+
+([ontologia_Class10065] of  Objetivos
+
+	(flexibilidad TRUE)
+	(mantenimiento FALSE)
+	(pasar-rato TRUE)
+	(perder-peso FALSE))
+
+([ontologia_Class10066] of  Objetivos
+
+	(flexibilidad TRUE)
+	(mantenimiento TRUE)
+	(pasar-rato TRUE)
+	(perder-peso FALSE))
+
+([ontologia_Class10070] of  Objetivos
+
+	(flexibilidad FALSE)
+	(mantenimiento FALSE)
+	(pasar-rato FALSE)
+	(perder-peso TRUE))
+
+([ontologia_Class20002] of  Problemas
+
+	(brazo-inferior TRUE)
+	(brazo-superior TRUE)
+	(espalda TRUE)
+	(osteoporosis FALSE)
+	(pierna-inferior FALSE)
+	(pierna-superior FALSE)
+	(torso TRUE))
+
+([ontologia_Class20003] of  Problemas
+
+	(brazo-inferior FALSE)
+	(brazo-superior FALSE)
+	(espalda FALSE)
+	(osteoporosis FALSE)
+	(pierna-inferior FALSE)
+	(pierna-superior FALSE)
+	(torso FALSE))
+
+([ontologia_Class20005] of  Problemas
+
+	(brazo-inferior FALSE)
+	(brazo-superior FALSE)
+	(espalda TRUE)
+	(osteoporosis FALSE)
+	(pierna-inferior FALSE)
+	(pierna-superior FALSE)
+	(torso TRUE))
+
+([ontologia_Class20007] of  Problemas
+
+	(brazo-inferior FALSE)
+	(brazo-superior FALSE)
+	(espalda FALSE)
+	(osteoporosis TRUE)
+	(pierna-inferior TRUE)
+	(pierna-superior TRUE)
+	(torso FALSE))
+
+([ontologia_Class20008] of  Problemas
+
+	(brazo-inferior FALSE)
+	(brazo-superior FALSE)
+	(espalda FALSE)
+	(osteoporosis FALSE)
+	(pierna-inferior FALSE)
+	(pierna-superior FALSE)
+	(torso TRUE))
+
+([ontologia_Class20012] of  Problemas
+
+	(brazo-inferior TRUE)
+	(brazo-superior TRUE)
+	(espalda TRUE)
+	(osteoporosis TRUE)
+	(pierna-inferior TRUE)
+	(pierna-superior TRUE)
+	(torso TRUE))
+
+([ontologia_Class20013] of  Problemas
+
+	(brazo-inferior FALSE)
+	(brazo-superior FALSE)
+	(espalda FALSE)
+	(osteoporosis FALSE)
+	(pierna-inferior FALSE)
+	(pierna-superior FALSE)
+	(torso FALSE))
+
+([ontologia_Class20016] of  Problemas
+
+	(brazo-inferior TRUE)
+	(brazo-superior TRUE)
+	(espalda TRUE)
+	(osteoporosis FALSE)
+	(pierna-inferior FALSE)
+	(pierna-superior FALSE)
+	(torso TRUE))
+
+([ontologia_Class20017] of  Problemas
+
+	(brazo-inferior FALSE)
+	(brazo-superior FALSE)
+	(espalda TRUE)
+	(osteoporosis TRUE)
+	(pierna-inferior FALSE)
+	(pierna-superior FALSE)
+	(torso TRUE))
+
+([ontologia_Class20018] of  Problemas
+
+	(brazo-inferior TRUE)
+	(brazo-superior TRUE)
+	(espalda FALSE)
+	(osteoporosis FALSE)
+	(pierna-inferior TRUE)
+	(pierna-superior TRUE)
+	(torso FALSE))
+
+([ontologia_Class25] of  Ejercicio
+
+	(calorias-minuto 5.0)
+	(combina-con
+		[ontologia_Class0]
+		[ontologia_Class10030]
+		[ontologia_Class10031]
+		[ontologia_Class10032]
+		[ontologia_Class10033]
+		[ontologia_Class25]
+		[ontologia_Class26]
+		[ontologia_Class27]
+		[ontologia_Class28]
+		[ontologia_Class29])
+	(duracion-minima 10)
+	(edad-minima 10)
+	(no-apto [ontologia_Class20013])
+	(nombre "Estiramientos")
+	(objetivos [ontologia_Class10055])
+	(recomendado [ontologia_Class20012])
+	(repeticiones-minimas 20))
+
+([ontologia_Class26] of  Ejercicio
+
+	(calorias-minuto 10.0)
+	(combina-con
+		[ontologia_Class25]
+		[ontologia_Class27])
+	(duracion-minima 30)
+	(edad-minima 12)
+	(no-apto [ontologia_Class20013])
+	(nombre "Pilates")
+	(objetivos [ontologia_Class10065])
+	(recomendado [ontologia_Class20012]))
+
+([ontologia_Class27] of  Ejercicio
+
+	(calorias-minuto 5.0)
+	(combina-con
+		[ontologia_Class25]
+		[ontologia_Class26])
+	(duracion-minima 30)
+	(edad-minima 10)
+	(no-apto [ontologia_Class20013])
+	(nombre "Taichi")
+	(objetivos [ontologia_Class10066])
+	(recomendado [ontologia_Class20012]))
+
+([ontologia_Class28] of  Ejercicio
+
+	(calorias-minuto 15.0)
+	(combina-con [ontologia_Class10030])
+	(duracion-minima 15)
+	(edad-maxima 60)
+	(edad-minima 18)
+	(no-apto [ontologia_Class20016])
+	(nombre "Pesas")
+	(objetivos [ontologia_Class10058])
+	(recomendado [ontologia_Class20003])
+	(repeticiones-maximas 50)
+	(repeticiones-minimas 20))
+
+([ontologia_Class29] of  Ejercicio
+
+	(calorias-minuto 10.0)
+	(duracion-minima 30)
+	(edad-maxima 80)
+	(edad-minima 10)
+	(no-apto [ontologia_Class20018])
+	(nombre "Natacion")
+	(objetivos [ontologia_Class10055])
+	(recomendado [ontologia_Class20017])
+	(repeticiones-maximas 50)
+	(repeticiones-minimas 10))
